@@ -1,0 +1,14 @@
+{
+  "name": "report-revision-flow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Management report revision workflow: impact analysis, diff preview, review, immutable publishing, rollback and deduped notifications.",
+  "scripts": {
+    "start": "node src/server.ts",
+    "test": "node --test test/workflow.test.ts test/notifications.test.ts test/http.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  }
+}
